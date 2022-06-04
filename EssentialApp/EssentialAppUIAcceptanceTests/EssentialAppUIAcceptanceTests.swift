@@ -35,4 +35,13 @@ class EssentialAppUIAcceptanceTests: XCTestCase {
         let firstCachedImage = offlineApp.cells.matching(identifier: "feed-image-view").firstMatch
         XCTAssertTrue (firstCachedImage.exists) //It could be a performance or network issue. That's why UI tests are so fragile - they can suddenly start failing unexpectedly, and it's hard to tell why.
     }
+    
+    func test_onLaunch_displaysEmptyFeedWhenCustomerHasNoConnectivityAndNoCache() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-reset", "-connectivity", "offline"]
+        app.launch()
+        
+        let feedCells = app.cells.matching(identifier: "feed-image-cell")
+        XCTAssertEqual(feedCells.count, 0)
+    }
 }

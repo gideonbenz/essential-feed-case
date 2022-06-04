@@ -32,6 +32,7 @@
 		BD9039002842042F00AB172B /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9038FF2842042F00AB172B /* XCTestCase+FeedImageDataLoader.swift */; };
 		BD903904284209EF00AB172B /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD903903284209EF00AB172B /* FeedImageDataLoaderCacheDecorator.swift */; };
 		BDD9ACD4284B39F200561721 /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9ACD3284B39F200561721 /* EssentialAppUIAcceptanceTests.swift */; };
+		BDD9ACDD284B4E5A00561721 /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9ACDC284B4E5A00561721 /* DebuggingSceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		BD903903284209EF00AB172B /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 		BDD9ACD1284B39F200561721 /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD9ACD3284B39F200561721 /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
+		BDD9ACDC284B4E5A00561721 /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				BD9038F9283F8B4C00AB172B /* FeedLoaderCacheDecorator.swift */,
 				BD9038EA2838E5C300AB172B /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				BD903903284209EF00AB172B /* FeedImageDataLoaderCacheDecorator.swift */,
+				BDD9ACDC284B4E5A00561721 /* DebuggingSceneDelegate.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				BD9038AD2838BA2B00AB172B /* AppDelegate.swift in Sources */,
 				BD9038E72838CF0700AB172B /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				BD9038FA283F8B4C00AB172B /* FeedLoaderCacheDecorator.swift in Sources */,
+				BDD9ACDD284B4E5A00561721 /* DebuggingSceneDelegate.swift in Sources */,
 				BD9038AF2838BA2B00AB172B /* SceneDelegate.swift in Sources */,
 				BD9038EB2838E5C300AB172B /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				BD903904284209EF00AB172B /* FeedImageDataLoaderCacheDecorator.swift in Sources */,

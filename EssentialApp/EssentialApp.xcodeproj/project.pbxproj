@@ -41,6 +41,7 @@
 		BDD9ACFF284C9E8300561721 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9ACFE284C9E8300561721 /* FeedUIIntegrationTests.swift */; };
 		BDD9AD01284CA15100561721 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9AD00284CA15100561721 /* FeedAcceptanceTests.swift */; };
 		BDD9AD122855A55F00561721 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD9AD112855A55F00561721 /* UIView+TestHelpers.swift */; };
+		BDF6641428FC046000DC61F3 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6641328FC046000DC61F3 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		BDD9ACFE284C9E8300561721 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		BDD9AD00284CA15100561721 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		BDD9AD112855A55F00561721 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		BDF6641328FC046000DC61F3 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				BD9038AC2838BA2B00AB172B /* AppDelegate.swift */,
 				BD9038AE2838BA2B00AB172B /* SceneDelegate.swift */,
+				BDF6641328FC046000DC61F3 /* CombineHelpers.swift */,
 				BDD9ACE5284C9DE300561721 /* FeedUIComposer.swift */,
 				BDD9ACE0284C9DE200561721 /* WeakRefVirtualProxy.swift */,
 				BDD9ACE1284C9DE200561721 /* FeedImageDataLoaderPresentationAdapter.swift */,
@@ -312,6 +315,7 @@
 			files = (
 				BD9038B12838BA2B00AB172B /* ViewController.swift in Sources */,
 				BD9038AD2838BA2B00AB172B /* AppDelegate.swift in Sources */,
+				BDF6641428FC046000DC61F3 /* CombineHelpers.swift in Sources */,
 				BD9038AF2838BA2B00AB172B /* SceneDelegate.swift in Sources */,
 				BDD9ACE9284C9DE300561721 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				BDD9ACEA284C9DE300561721 /* FeedUIComposer.swift in Sources */,

@@ -104,6 +104,7 @@
 		BDC7B8982938A00300955337 /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7B8962938A00300955337 /* IMAGE_COMMENTS_dark.png */; };
 		BDC7B8992938A00300955337 /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7B8972938A00300955337 /* IMAGE_COMMENTS_light.png */; };
 		BDC7B89B2938A13D00955337 /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7B89A2938A13D00955337 /* ImageCommentCell.swift */; };
+		BDC7B89D2938B78200955337 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7B89C2938B78100955337 /* CellController.swift */; };
 		BDCC460127B67B070031AB7E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCC45F627B67B060031AB7E /* EssentialFeed.framework */; };
 		BDCC460727B67B070031AB7E /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC45F927B67B060031AB7E /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDCC461127B67D680031AB7E /* FeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC461027B67D680031AB7E /* FeedImage.swift */; };
@@ -270,6 +271,7 @@
 		BDC7B8962938A00300955337 /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		BDC7B8972938A00300955337 /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
 		BDC7B89A2938A13D00955337 /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
+		BDC7B89C2938B78100955337 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 		BDCC45F627B67B060031AB7E /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCC45F927B67B060031AB7E /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		BDCC460027B67B070031AB7E /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,6 +630,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6AF41A280D5AB600C19F80 /* ListViewController.swift */,
+				BDC7B89C2938B78100955337 /* CellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1126,6 +1129,7 @@
 				BDD9AD0C28549D6B00561721 /* UITableView+HeaderSizing.swift in Sources */,
 				BD7223B62824D7F40055F817 /* ErrorView.swift in Sources */,
 				BD7223BB2824E1AE0055F817 /* UIRefreshControl+Helpers.swift in Sources */,
+				BDC7B89D2938B78200955337 /* CellController.swift in Sources */,
 				BD6AF41F280D795500C19F80 /* UIView+Shimmering.swift in Sources */,
 				BD92BF66281FD862002E6F9F /* UITableView+Dequeueing.swift in Sources */,
 				BD92BF68281FDC91002E6F9F /* UIImageVIew+Animations.swift in Sources */,

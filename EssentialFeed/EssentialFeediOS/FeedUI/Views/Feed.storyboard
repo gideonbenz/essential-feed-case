@@ -20,7 +20,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOU-bi-abu">
-                                    <rect key="frame" x="0.0" y="8" width="414" height="18"/>
+                                    <rect key="frame" x="8" y="8" width="398" height="18"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -28,9 +28,9 @@
                             </subviews>
                             <color key="backgroundColor" red="0.99951404330000004" green="0.41759261489999999" blue="0.4154433012" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="MOU-bi-abu" secondAttribute="trailing" id="420-HC-wlU"/>
+                                <constraint firstAttribute="trailing" secondItem="MOU-bi-abu" secondAttribute="trailing" constant="8" id="420-HC-wlU"/>
                                 <constraint firstAttribute="bottom" secondItem="MOU-bi-abu" secondAttribute="bottom" constant="8" id="i5t-XA-lVf"/>
-                                <constraint firstItem="MOU-bi-abu" firstAttribute="leading" secondItem="clu-9B-M8g" secondAttribute="leading" id="lzN-3B-Cza"/>
+                                <constraint firstItem="MOU-bi-abu" firstAttribute="leading" secondItem="clu-9B-M8g" secondAttribute="leading" constant="8" id="lzN-3B-Cza"/>
                                 <constraint firstItem="MOU-bi-abu" firstAttribute="top" secondItem="clu-9B-M8g" secondAttribute="top" constant="8" id="ydI-ea-HDZ"/>
                             </constraints>
                             <connections>

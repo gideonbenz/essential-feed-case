@@ -42,8 +42,8 @@ public final class ErrorView: UIView {
         addSubview(label)
         label.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            label.leadingAnchor.constraint(equalTo: leadingAnchor),
-            trailingAnchor.constraint(equalTo: label.trailingAnchor),
+            label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8),
+            trailingAnchor.constraint(equalTo: label.trailingAnchor, constant: 8),
             label.topAnchor.constraint(equalTo: topAnchor, constant: 8),
             bottomAnchor.constraint(equalTo: label.bottomAnchor, constant: 8),
         ])

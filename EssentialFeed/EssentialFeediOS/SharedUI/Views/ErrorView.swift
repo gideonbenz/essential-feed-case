@@ -13,6 +13,8 @@ public final class ErrorView: UIButton {
         set { setMessageAnimated(newValue) }
     }
     
+    public var onHide: (() -> Void)?
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -44,12 +46,6 @@ public final class ErrorView: UIButton {
         hideMessage()
     }
 
-    public override func awakeFromNib() {
-        super.awakeFromNib()
-
-        hideMessage()
-    }
-
     private var isVisible: Bool {
         return alpha > 0
     }
@@ -71,7 +67,7 @@ public final class ErrorView: UIButton {
         }
     }
 
-    @IBAction private func hideMessageAnimated() {
+    @objc private func hideMessageAnimated() {
         UIView.animate(
             withDuration: 0.25,
             animations: { self.alpha = 0 },
@@ -83,8 +79,8 @@ public final class ErrorView: UIButton {
     private func hideMessage() {
         configuration?.attributedTitle = nil
         configuration?.contentInsets = .zero
-        
         alpha = 0
+        onHide?()
     }
 }
 
